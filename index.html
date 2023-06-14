@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academlo Shop</title>
+    <link
+      rel="shortcut icon"
+      href="assets/img/academlo.png"
+      type="image/x-icon"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- JS -->
+    <script src="assets/js/main.js" type="module" defer></script>
+  </head>
+  <body>
+      <!-- Loader -->
+      <div class="loader">
+        <div class="loader__container">
+          <span></span>
+        </div>
+      </div>
+      <!-- Header -->
+      <header class="header">
+        <nav class="nav container">
+          <a href="/" class="nav__logo">
+            <img
+              class="nav__logo--logo"
+              src="/assets/img/Logotipo_Academlo-04.png"
+              alt="Logo"
+            />
+          </a>
+          <div class="nav__menu">
+            <div class="menu--lines"></div>
+            <div class="nav__cross--horizontal"></div>
+            <div class="nav__cross--vertical"></div>
+            <button type="button" class="nav__btn btn--close">
+              <i class="bx bx-x"></i>
+            </button>
+            <ul class="nav__list">
+              <li class="nav__items">
+                <a href="#" class="nav__link">Inicio</a>
+              </li>
+              <li class="nav__items">
+                <a href="#" class="nav__link">Productos</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav__buttons">
+            <button type="button" class="nav__btn btn--cart">
+              <i class="bx bxs-shopping-bags"></i>
+              <span class="notify">0</span>
+            </button>
+            <button type="button" class="nav__btn btn--menu">
+              <i class="bx bx-menu"></i>
+            </button>
+            <label for="toggle" id="label_toggle"><i class='bx bxs-moon'></i></label>
+            <input type="checkbox" id="toggle" />
+            <div class="contenedor-toggle">
+          </div>
+        </nav>
+      </header>
+      <!-- Main -->
+    <div id="dark_mood">
+      <main class="main">
+        <section class="products section">
+          <h2 class="products__title section--title">Nuestros Productos</h2>
+          <div class="products__container container"></div>
+        </section>
+      </main>
+
+      <!-- Cart -->
+      <div class="cart">
+        <div class="cart__container">
+          <div class="cart__header">
+            <h3 class="cart__title">Carrito de Compras</h3>
+            <button type="button" class="cart__btn btn--close">
+              <i class="bx bx-x"></i>
+            </button>
+          </div>
+          <div class="cart__body"></div>
+          <div class="cart__footer">
+            <div class="cart__count">
+              <span class="cart__count--text">Articulos</span>
+              <span class="cart__count--item">0</span>
+            </div>
+            <div class="cart__total">
+              <span class="cart__count--text">Total</span>
+              <span class="cart__total--item">$0</span>
+            </div>
+            <button type="button" class="cart__btn btn--buy">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- Footer -->
+      <footer class="footer section">
+        <div class="footer__container container">
+          <div class="footer__top">
+            <div class="footer__left">
+              <h3 class="footer__title">Sobre Mi</h3>
+              <p class="footer__text">
+                Estudiante de Academlo, e-commerce conforme al módulo de Fundamentos
+              </p>
+            </div>
+            <div class="footer__right">
+              <h3 class="footer__title">Redes Sociales</h3>
+              <ul class="footer__social">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">
+                    <i class="bx bxl-github"></i>
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">
+                    <i class="bx bxl-instagram"></i>
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">
+                    <i class="bx bxl-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <p class="footer__text">Todos los derechos reservados</p>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>
