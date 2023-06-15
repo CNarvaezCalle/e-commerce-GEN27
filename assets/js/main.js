@@ -5,6 +5,7 @@ import showCart from './components/showCart.js';
 import showMenu from './components/showMenu.js';
 import getProducts from './helpers/getProducts.js';
 import toggle from './components/toggle.js';
+import header from './components/header.js'
 
 
 /* UI Elements */
@@ -29,3 +30,5 @@ cart(db, printProducts)
 /* Toggle */
 toggle()
 
+/* Header */
+header()

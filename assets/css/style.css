@@ -219,6 +219,11 @@ p {
   background-color: var(--bg-color);
   z-index: var(--z-fixed);
   box-shadow: 0 0 10px hsla(0, 0%, 0%, 50%);
+  transition: background-color 0.5s ease-in-out;
+}
+
+.header.scrolled {
+  background-color: hsl(206, 4%, 97%, 0.8);
 }
 
 .nav {
